@@ -7,7 +7,6 @@
 body {
     padding: 0;
     margin: 0;
-    background: url(./Images/bodybackground-2.jpg);
     height: 100vh;
     width: 100%;
     display: flex;
@@ -18,14 +17,14 @@ body {
 
 .main {
     display: flex;
-    height: 60%;
+    height: 100%;
     width: 100%;
     background-color: #ffffffee;
 }
 
 .left-image {
-    background: #ffce7277;
-    width: 30%;
+    background: url(./Images/bodybackground-2.jpg);
+    width: 60%;
     height: 100%;
     padding: 0;
 }
@@ -37,9 +36,24 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #33333377;
+    background-color: #333333dd;
     position: relative;
-    top: 30%;
+    top: 40%;
     font-size: 70px;
     color: #ffffff;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+
+}
+
+form {
+    padding: 10%;
+}
+
+#submit {
+    width: 120px;
+    height: 40px;
 }
