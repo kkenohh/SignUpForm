@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up Form</title>
     <link rel="stylesheet" href="./mainStyles.css">
+    <link rel="stylesheet" href="./signup.css">
+    <title>Sign Up Form</title>
 </head>
 <body>
     <div class="main">
@@ -17,39 +18,39 @@
                 <section>
                     <div class="fields">
                         <div class="single">
-                            <label for="name">Name</label>
-                            <input name="name" class="text" type="text" placeholder="Name">
+                            <label class="salmon" for="name">Name</label>
+                            <input name="name" class="textbox" type="text" placeholder="Name">
                         </div>
                         <div class="single">
-                            <label for="user">Username*</label>
-                            <input name="user" class="text" type="text" placeholder="Username" required>
-                        </div>
-                    </div>
-                    <div class="fields">
-                        <div class="single">
-                            <label for="email">Email*</label>
-                            <input name="email" class="text" type="text" placeholder="name@example.com" required>
-                        </div>
-                        <div class="single">
-                            <label for="number">Phone Number</label>
-                            <input name="number" class="text" type="text" placeholder="xxx-xxx-xxxx">
+                            <label class="salmon" for="user">Username *</label>
+                            <input name="user" class="textbox" type="text" placeholder="Username" required>
                         </div>
                     </div>
                     <div class="fields">
                         <div class="single">
-                            <label for="password">Password*</label>
-                            <input name="password" class="text" type="text" placeholder="Password" required>
+                            <label class="salmon" for="email">Email *</label>
+                            <input name="email" class="textbox" type="text" placeholder="name@example.com" required>
                         </div>
                         <div class="single">
-                            <label for="confirm">Confirm Password*</label>
-                            <input name="confirm" class="text" type="text" placeholder="Confirm Password" required>
+                            <label class="salmon" for="number">Phone Number</label>
+                            <input name="number" class="textbox" type="text" placeholder="xxx-xxx-xxxx">
+                        </div>
+                    </div>
+                    <div class="fields">
+                        <div class="single">
+                            <label class="salmon" for="password">Password *</label>
+                            <input name="password" class="textbox" type="text" placeholder="Password" required>
+                        </div>
+                        <div class="single">
+                            <label class="salmon" for="confirm">Confirm Password *</label>
+                            <input name="confirm" class="textbox" type="text" placeholder="Confirm Password" required>
                         </div>
                     </div>
                 </section>
-                <input id="submit" type="submit">
+                <input class="button" type="submit">
             </form>
-            <p>Already have an account? <a href="">Log In</a></p>
-            <footer>* = required</footer>
+            <p class="salmon">Asterisk indicates required field</p>
+            <p>Already have an account? <a href="./login.html" class="salmon">Log In</a></p>
         </div>
     </div>
 </body>

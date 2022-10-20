@@ -1,0 +1,19 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.button {
+    width: 240px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 60px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+}
